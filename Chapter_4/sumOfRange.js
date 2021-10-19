@@ -1,5 +1,6 @@
 //The range function returns the array of range between 2 arguements start and end. The step arguement determines the steps for increment.
-function range(start, end, step = start < end ? 1 : -1)     // Here  a condition is set in step arguement because, if no arguement is provided the default increment would be by 1 or -1, depending on the condition.
+function range(start, end, step = start < end ? 1 : -1)    
+// Here  a condition is set in step arguement because, if no arguement is provided the default increment would be by 1 or -1, depending on the condition.
 
 {
     let arr = [];
