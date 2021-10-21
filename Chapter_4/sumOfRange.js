@@ -22,6 +22,7 @@ function range(start, end, step = start < end ? 1 : -1)     // Here  a condition
     return arr;
 }
 
+console.log(range(10,1,-2));
 // The sum function takes the array and returns the sum of all the numbers in the array.
 function sum(arr)
 {
@@ -36,4 +37,4 @@ function sum(arr)
     return total;
 }
 
-console.log(sum(range(10,1,2)));
+console.log(sum(range(10,1,-2)));
