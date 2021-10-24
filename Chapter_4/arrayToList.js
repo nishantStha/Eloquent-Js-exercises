@@ -1,3 +1,4 @@
+//Takes an array and changes it into a list
 function arrayToList(array) 
 {
     let list = null;
